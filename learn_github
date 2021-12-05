@@ -1,5 +1,11 @@
-<h1>git hub</h1>
-<p>Re commited</p>
-<?php for ($i=0; $i < ; $i++) {
-  // code..
-} ?>
+<?php
+echo 'Hello,world'."\n";//'<br>'はブラウザ用の改行コード　op+¥　で\ [."\n";]をつける
+echo 'こんにちは世界'."\n";
+
+for ($i=1; $i <=100 ; $i++) {
+   if($i % 2 == 0 || $i % 3 == 0){
+     continue;
+   }
+   echo $i.",";
+};
+?>
