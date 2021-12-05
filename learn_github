@@ -1,2 +1,5 @@
 <h1>git hub</h1>
 <p>Re commited</p>
+<?php for ($i=0; $i < ; $i++) {
+  // code..
+} ?>
